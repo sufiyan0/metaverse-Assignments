@@ -47,11 +47,24 @@ let cities= ['Karachi','Islamabad','Lahore','Hydrabad'];
 
 let data = [];
 
-let alldata =data.concat(cars,VisitingPlaces,countries,cities);
-console.log(alldata); 
+data =data.concat(cars,VisitingPlaces,countries,cities);
+console.log(data); 
 
 
 // Ex 21....
 console.log("\n\nEx No: 21 \n\n");
 
 
+let obj = {
+    carList : cars,
+    visitPlc: VisitingPlaces,
+    country: countries,
+    city: cities
+}
+
+console.log(obj["carList"]);
+console.log(obj["visitPlc"].length);
+
+console.log("\n\nEx No: 22 \n\n");
+
+console.log(cars(2));
