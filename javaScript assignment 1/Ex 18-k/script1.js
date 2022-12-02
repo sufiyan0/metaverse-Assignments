@@ -68,3 +68,10 @@ console.log(obj["visitPlc"].length);
 console.log("\n\nEx No: 22 \n\n");
 
 console.log(cars(2));
+
+console.log("\n\nEx No: 22 \n\n");
+
+let car = ['suzuki Alto','Suzuki Swift','Suzuki cultus','Toyota Corolla','Honda civic'];
+
+console.log(car.length);
+
