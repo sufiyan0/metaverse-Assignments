@@ -36,4 +36,3 @@ async function startAgain() {
     } while (start.restart == "Yes");
 }
 startAgain();
-// const { restart } = start;
